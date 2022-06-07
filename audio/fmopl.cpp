@@ -45,6 +45,10 @@ namespace ALSA {
 } // End of namespace ALSA
 #endif // USE_ALSA
 
+namespace OPL2Arduino {
+	OPL *create();
+} // End of namespace OPL2Arduino
+
 #ifdef ENABLE_OPL2LPT
 namespace OPL2LPT {
 	OPL *create(Config::OplType type);
